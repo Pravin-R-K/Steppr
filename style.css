@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#home p {
+    font-size: 22px;
+}
+
+#shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#shop p {
+    font-weight: bolder;
+}
+
+#brands {
+    font-family: "Montserrat", sans-serif;
+}
+
+#brands h2,
+.brandPara {
+    text-align: center;
+}
+
+#brands .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#about {
+    height: 100vh;
+    background-color: black;
+    background-image: url(images/about-us.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    filter: opacity(85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: center;
+}
